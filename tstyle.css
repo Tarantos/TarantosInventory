@@ -1,0 +1,162 @@
+html, body{
+	background-color: #87AADE;
+	height: 100%;
+}
+
+h4 {
+	text-align: center;
+	font-weight: bolder;
+}
+.button {
+	padding: 5px 10px;
+	display: inline;
+	background: #37ABC8;
+	<!-- background: #abc837 url(button.png) repeat-x bottom; -->
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+    	border-radius: 5px;
+    	-moz-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	text-shadow: 1px 1px #666;
+	text-decoration:none;
+}
+
+.button:hover {
+    background-position: 0 -48px;
+}
+
+.button:active {
+    background-position: 0 top;
+    position: relative;
+    top: 1px;
+    padding: 6px 10px 4px;
+}
+
+
+.checkbox {
+	padding: 15px;
+}
+
+#container{
+	position: relative;
+	min-height: 100%;
+}
+
+#menuLayout{
+	background-color: #FFF6D5;
+	position: relative;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuLinks{
+	list-style: none;
+	
+}
+
+#menuLinks ul{
+	text-align: right;
+}
+
+#menuLinks li{
+	display: inline;
+	text-align: left;
+}
+
+#menuLayout h4{
+	text-align: left;
+}
+
+#newItem{
+	background-color: #b1b1b1;
+	position: relative;
+	font-size: 12pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#newItem input, select{
+	margin-right: 10px;
+}
+
+#invTables{
+	border:1px solid #222222;
+	background-color: #eeeeee;
+	position: relative;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#invTables ul {
+	list-style: none;
+	text-align: left;
+}
+
+#invTables li {
+	list-style: none ;
+	font-weight: bolder;
+}
+
+#invItems ul{
+	display: inline;
+	
+}
+
+#invItems form{
+	display: inline;
+}
+
+#invItems input{
+	margin-right: 10px;
+}
+
+#itemInput{
+	margin: 0px auto;
+	text-align: center;
+	background-color: #fff6d5;
+	width: 600px;
+}
+
+#itemInput ul{
+
+	display: inline;
+}
+
+#itemInput li{
+	display: block;
+	text-align: left;
+	padding-right: 10px;
+}
+#itemInputFields li{
+	text-align: right;
+}
+label{
+	padding-right: 40px;
+li{
+	display: inline;
+	text-align: center;
+	font-weight: normal;
+	padding: 5px;	
+}
+
+b{
+	text-align: center;
+}
+
+th{
+	background-color: #87AADE;
+	text-align: center;
+	padding: 5px;
+}
+
+#footer{
+	position: relative;
+	bottom: 0;
+	background-color: #cccccc;
+	text-align: center;
+}
